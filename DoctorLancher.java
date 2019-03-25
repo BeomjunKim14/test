@@ -1,4 +1,7 @@
 public class DoctorLancher{
+   
+   
+   
     public static void main(String[] args){
         //create obj
         Doctor dt = new Doctor();
