@@ -20,6 +20,8 @@ public class AnimalLauncher{
         Wolf wolf = new Wolf();
         wolf.makeNoise();
         wolf.eat();
+        wolf.setFood("meat");
         System.out.println(wolf.sleep);
+        System.out.println(wolf.getFood());
     }
 }

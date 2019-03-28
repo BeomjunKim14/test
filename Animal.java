@@ -1,6 +1,6 @@
-class Animal{
+public class Animal{
     boolean picture;
-    String food;
+    private String food;
     boolean hunger;
     boolean boundaries = true;
     String location;
@@ -16,5 +16,11 @@ class Animal{
     }
     public void roam(){
         System.out.println("Animal roam");
+    }
+    public void setFood(String _food){
+        food = _food;
+    }
+    public String getFood(){
+        return food;
     }
 }
