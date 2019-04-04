@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AnimalLauncher",
+            "request": "launch",
+            "mainClass": "AnimalLauncher",
+            "projectName": "test-1_b2382251"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PetLauncher",
             "request": "launch",
             "mainClass": "PetLauncher",

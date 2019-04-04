@@ -1,4 +1,4 @@
-public class Animal{
+abstract class Animal{
     boolean picture;
     private String food;
     boolean hunger;

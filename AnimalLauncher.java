@@ -16,6 +16,8 @@ public class AnimalLauncher{
         Dog dog = new Dog();
         dog.makeNoise();
         dog.eat();
+        dog.petinfo();
+        dog.showName();
         System.out.println(dog.sleep);
         Wolf wolf = new Wolf();
         wolf.makeNoise();
@@ -23,5 +25,8 @@ public class AnimalLauncher{
         wolf.setFood("meat");
         System.out.println(wolf.sleep);
         System.out.println(wolf.getFood());
+        Robodog robodog = new Robodog();
+        robodog.petinfo();
+        robodog.showName();
     }
 }
