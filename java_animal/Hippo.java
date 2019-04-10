@@ -1,4 +1,5 @@
-class Hippo extends Animal{
+package java_animal;
+public class Hippo extends Animal{
     public void makeNoise(){
         System.out.println("Hippo make noise");
 

@@ -1,3 +1,4 @@
+package java_doctor;
 public class Doctor{
     boolean worksAtHospital;
 

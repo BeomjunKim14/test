@@ -1,3 +1,4 @@
+package java_animal;
 class Cat extends Feline{
     public void makeNoise(){
         System.out.println("Cat make noise");

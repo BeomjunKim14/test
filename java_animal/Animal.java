@@ -1,4 +1,6 @@
-abstract class Animal{
+package java_animal;
+
+public abstract class Animal{
     boolean picture;
     private String food;
     boolean hunger;

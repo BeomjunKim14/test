@@ -1,3 +1,4 @@
+package java_animal;
 public class AnimalLauncher{
     public static void main(String[] args){
         Lion lion = new Lion();
@@ -11,6 +12,7 @@ public class AnimalLauncher{
         cat.makeNoise();
         cat.eat();
         Hippo hippo = new Hippo();
+        hippo.makeNoise();
         hippo.makeNoise();
         hippo.eat();
         Dog dog = new Dog();

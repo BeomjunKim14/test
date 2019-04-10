@@ -1,4 +1,5 @@
-class Dog extends Canine implements Pet{
+package java_animal;
+public class Dog extends Canine implements Pet{
     String name = "D";
     String breed = "dog";
     int age = 7;

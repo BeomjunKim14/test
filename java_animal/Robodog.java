@@ -1,3 +1,4 @@
+package java_animal;
 public class Robodog extends Robot implements Pet{
     String breed = "robot";
     String name = "robodog";

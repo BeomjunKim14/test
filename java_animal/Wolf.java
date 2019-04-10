@@ -1,3 +1,4 @@
+package java_animal;
 class Wolf extends Canine{
     boolean sleep = false;
     public void makeNoise(){
