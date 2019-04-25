@@ -2,6 +2,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OverloadLancher",
+            "request": "launch",
+            "mainClass": "test.OverloadLancher",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoctorPolyMain",
+            "request": "launch",
+            "mainClass": "java_doctor.DoctorPolyMain",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnimalLauncher",
+            "request": "launch",
+            "mainClass": "java_animal.AnimalLauncher",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "java_graphicui.Calculator",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Gcd",
+            "request": "launch",
+            "mainClass": "test.Gcd",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lambda",
+            "request": "launch",
+            "mainClass": "test.Lambda",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex5GridLayout",
+            "request": "launch",
+            "mainClass": "java_graphicui.Ex5GridLayout",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex4BorderLayout",
+            "request": "launch",
+            "mainClass": "java_graphicui.Ex4BorderLayout",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex3Button",
+            "request": "launch",
+            "mainClass": "java_graphicui.Ex3Button",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex2Simple",
+            "request": "launch",
+            "mainClass": "java_graphicui.Ex2Simple",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Prac2Button",
+            "request": "launch",
+            "mainClass": "java_graphicui.Prac2Button",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AnimalLauncher",
             "request": "launch",
             "mainClass": "AnimalLauncher",

@@ -1,4 +1,4 @@
-package java_gui;
+package java_graphicui;
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -10,7 +10,7 @@ public class Ex3Button implements ActionListener{
         JFrame frame = new JFrame(title);
         JButton button = new JButton("Swing button!");
         button.addActionListener(this);
-
+        
         JPanel panel = new JPanel();
         panel.add(button);
         panel.add(label);
@@ -25,6 +25,6 @@ public class Ex3Button implements ActionListener{
     }
     public static void main(String[] args) {
         Ex3Button button = new Ex3Button();
-        button.go("Event handling");    
+        button.go("Event handling"); 
     }
 }

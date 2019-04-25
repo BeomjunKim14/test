@@ -27,8 +27,14 @@ public class AnimalLauncher{
         wolf.setFood("meat");
         System.out.println(wolf.sleep);
         System.out.println(wolf.getFood());
+        System.out.println(wolf.lifespan);
         Robodog robodog = new Robodog();
         robodog.petinfo();
         robodog.showName();
+        Animal mydog = new Dog();
+        mydog.sleep();
+        //mydog.petinfo(); Animal class로 선언했기 때문에 dog class method 사용불가
+        PetOwner owner = new PetOwner();
+        owner.shot();
     }
 }

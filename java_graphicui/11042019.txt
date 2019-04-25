@@ -1,0 +1,10 @@
+pane << display 되는 공간을 뜻함. Frame이 업데이트 함.
+panel << 원하는 것을 담는 것. component를 add하는 역할
+
+border layout 프레임을 만들어 영역을 나눔. 상대적인 영역!!. 고정되어있지 않음.
+Flow layout 스스로 자리를 바꿈. 채워지면 그다음을 채우는 방식.
+box layout 방향을 결정해줄 수 있다. 기본값은 수직적으로.
+JTextField 
+JScrollArea 연습.
+Inheritance, Polymorphism, Abstraction, Interface
+GUI modules, event, layout, animation

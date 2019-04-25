@@ -1,4 +1,4 @@
-package java_gui;
+package java_graphicui;
 
 import javax.swing.*;
 public class helloworld {

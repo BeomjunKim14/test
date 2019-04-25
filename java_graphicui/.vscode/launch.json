@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Prac2Button",
+            "request": "launch",
+            "mainClass": "Prac2Button"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloworld",
+            "request": "launch",
+            "mainClass": "java_gui.helloworld"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex2Simple",
+            "request": "launch",
+            "mainClass": "java_gui.Ex2Simple"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex3Button",
+            "request": "launch",
+            "mainClass": "java_gui.Ex3Button"
+        }
+    ]
+}

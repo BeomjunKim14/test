@@ -1,6 +1,7 @@
 package java_animal;
 
 public abstract class Animal{
+    int lifespan;
     boolean picture;
     private String food;
     boolean hunger;
