@@ -7,7 +7,7 @@ public class Ex5GridLayout extends JFrame{
     public Ex5GridLayout(){
         setTitle("GridLayout Test");
         Container pane = getContentPane();
-        pane.setLayout(new GridLayout(2,3));
+        pane.setLayout(new GridLayout(2,3,4,4));
         pane.add(b1); pane.add(b2); pane.add(b3); pane.add(b4); pane.add(b5);
         setBounds(0,0,300,250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

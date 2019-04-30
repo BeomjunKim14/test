@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PracGUI",
+            "request": "launch",
+            "mainClass": "test2.PracGUI",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - OverloadLancher",
             "request": "launch",
             "mainClass": "test.OverloadLancher",

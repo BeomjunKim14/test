@@ -17,7 +17,7 @@ public class Ex4BorderLayout extends JFrame{
         pane.add(b3,"East");
         pane.add(b4,"West");
         pane.add(b5,"Center");
-        setBounds(50,50,1000,1000);
+        setBounds(50,50,100,100);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String args []){
