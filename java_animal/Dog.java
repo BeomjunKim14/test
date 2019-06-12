@@ -1,6 +1,10 @@
 package java_animal;
-public class Dog extends Canine implements Pet{
-    String name = "D";
+
+import java.io.Serializable;
+
+public class Dog extends Canine implements Pet,Serializable{
+    private static final long serialVersionUID = 1L;
+    transient String name = "D";
     String breed = "dog";
     int age = 7;
 
@@ -17,4 +21,5 @@ public class Dog extends Canine implements Pet{
     public void showName(){
         System.out.println(name);
     }
+    
 }

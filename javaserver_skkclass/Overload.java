@@ -1,4 +1,4 @@
-package test;
+package javaserver_skkclass;
 public class Overload{
     public int addNums(int a, int b){
         return a+b;

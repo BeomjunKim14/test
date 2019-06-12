@@ -1,4 +1,4 @@
-package test;
+package javaserver_skkclass;
 
 public class OverloadLancher {
 public static void main(String [] args){

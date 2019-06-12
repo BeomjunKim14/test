@@ -1,6 +1,11 @@
 package java_animal;
-public class AnimalLauncher{
-    public static void main(String[] args){
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class AnimalLauncher {
+    public static void main(String[] args) throws IOException {
         Lion lion = new Lion();
         System.out.println(lion.boundaries);
         lion.makeNoise();
@@ -33,8 +38,13 @@ public class AnimalLauncher{
         robodog.showName();
         Animal mydog = new Dog();
         mydog.sleep();
-        //mydog.petinfo(); Animal class로 선언했기 때문에 dog class method 사용불가
+        
         PetOwner owner = new PetOwner();
         owner.shot();
+        FileOutputStream fs = new FileOutputStream("~/pet.ser");
+        ObjectOutputStream os = new ObjectOutputStream(fs);
+        os.writeObject(dog);
+        os.close();
+        
     }
 }

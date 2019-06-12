@@ -1,4 +1,4 @@
-package test;
+package javaserver_skkclass;
 
 import javax.swing.*;
 import java.awt.*;

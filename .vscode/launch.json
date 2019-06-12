@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LostUpdate",
+            "request": "launch",
+            "mainClass": "test.LostUpdate",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyRunnable",
+            "request": "launch",
+            "mainClass": "test.MyRunnable",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ChatS",
+            "request": "launch",
+            "mainClass": "test.ChatS",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LocalSocket",
+            "request": "launch",
+            "mainClass": "test.LocalSocket",
+            "projectName": "test_1f6b5180"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PracGUI",
             "request": "launch",
             "mainClass": "test2.PracGUI",
